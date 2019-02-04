@@ -18,13 +18,13 @@ export default class Nav extends React.Component {
             <NavLink exact to="/" activeClassName="navlink-active">HOME</NavLink>
           </div>
           <div className="nav-link">
-            <NavLink exact to="/breakfast" activeClassName="navlink-active">BREAKFAST</NavLink>
+            <NavLink exact to="/menu" activeClassName="navlink-active">MENU</NavLink>
           </div>
           <div className="nav-link">
-            <NavLink exact to="/lunch" activeClassName="navlink-active">LUNCH</NavLink>
+            <NavLink exact to="/about" activeClassName="navlink-active">ABOUT</NavLink>
           </div>
           <div className="nav-link">
-            <NavLink exact to="/dinner" activeClassName="navlink-active">DINNER</NavLink>
+            <NavLink exact to="/contact" activeClassName="navlink-active">CONTACT</NavLink>
           </div>
         </div>
       </div>

@@ -49,23 +49,39 @@
         margin-bottom: 27px;
       }
     }
+  }
+}
 
-    .order-total-wrapper {
-      h2 {
-        font-family: $headingfont;
-        font-size: 4rem;
-        margin: 0px;
-        margin-top: 177px;
-      }
+.order-total-wrapper {
+  width: 331px;
+  margin-right: -111px;
+  margin-left: -77px;
 
-      .total {
-        height: 120px;
+  h2 {
+    font-family: $headingfont;
+    font-size: 4rem;
+    margin: 0px;
+    margin-top: 177px;
+  }
 
-        p {
-          font-size: 2rem;
-          margin: 0px;
-        }
-      }
+  .order {
+    position: sticky;
+    top: 101px;
+
+    p {
+      font-size: 1.1rem;
+      margin: 0px;
+    }
+  }
+
+  .total {
+    position: sticky;
+    top: 637px;
+    height: 120px;
+
+    p {
+      font-size: 2rem;
+      margin: 0px;
     }
   }
 }

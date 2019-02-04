@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Nav from "./nav.js";
-import Home from "./templates/home.js";
-import Breakfast from "./templates/breakfast.js";
-import Lunch from "./templates/lunch";
-import Dinner from "./templates/dinner.js";
+import Nav from "./nav";
+import Home from "./templates/home";
+import Menu from "./templates/menu";
+import About from "./templates/about";
+import Contact from "./templates/contact";
 
 export default class App extends Component {
   constructor(props) {
@@ -24,9 +24,9 @@ export default class App extends Component {
               <div className="app-right-side">
                 <Switch>
                   <Route exact path="/" component={Home} />
-                  <Route exact path="/breakfast" component={Breakfast} />
-                  <Route exact path="/lunch" component={Lunch} />
-                  <Route exact path="/dinner" component={Dinner} />
+                  <Route exact path="/menu" component={Menu} />
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/contact" component={Contact} />
                 </Switch>
               </div>
             </div>
