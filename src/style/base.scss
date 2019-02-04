@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 100%;
+  background-color: $offwhite;
+}
+
+.app-page-organization {
+  display: flex;
+  justify-content: space-between;
+  width: 98vw;
+
+  .app-left-side {
+    width: 175px;
+  }
+  
+  .app-right-side {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
